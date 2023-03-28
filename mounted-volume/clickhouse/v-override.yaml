@@ -6,13 +6,6 @@ defaultProfiles:
 global:
   storageClass: "rook-ceph-block"
 
-zookeeper:
-  persistence:
-    size: 8Gi
-
-persistence:
-  size: 10Gi
-
 files: 
   users.d/00-privy-override.xml: |
     <yandex>
